@@ -3,6 +3,9 @@
 Through the use of the netcat command our group was able to create a usb device that is capable of creating a backdoor
 into another users computer which is on the same network. 
 
+### Objective: 
+To demonstrate the risk inhereted when a person leaves a computer unlocked and unattended in a public setting and how that risk can be reduced by locking said computer when leaving it unatended. 
+
 ### Hardware: 
 Adafruit Feather 32u4 Bluefruit LE
 More information can be found [here](https://www.adafruit.com/product/2829)
