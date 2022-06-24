@@ -4,7 +4,7 @@ Through the use of the netcat command our group was able to create a usb device 
 into another users computer which is on the same network. 
 
 ### Objective: 
-To demonstrate the risk inhereted when a person leaves a computer unlocked and unattended in a public setting and how that risk can be reduced by locking said computer when leaving it unatended. 
+To demonstrate the risk inhereted when a person leaves a computer unlocked and unattended in a public setting and how that risk can be reduced by locking said computer when leaving it unatended. We were able to deomonstrate how to deal with this attack after it has been carried out, by monitoring a computer for suspicious bash processes and their usage of resources.
 
 ### Hardware: 
 Adafruit Feather 32u4 Bluefruit LE
@@ -24,10 +24,6 @@ More information can be found [here](https://www.adafruit.com/product/2829)
 + Once here the extensions are endless, however it may be best to add an additional back door to the targets computer for rentry. There are many ways this can be done one is to add a public ssh key to the targets authorized_keys file
 More on backdoors can be found [here](https://medium.com/@airman604/9-ways-to-backdoor-a-linux-box-f5f83bae5a3c)
 
-### Security Measures: 
-This Project exists to show how this type of attack can happen, in order to better protect yourself, you should never leave your computer unattended.
-When this hack has been carried out with the attack can be detected by looking at a task manager, creating a top session and looking for any bash sessions that are using more CPU power than they should be using.
-Currently a patch to this type of attack is being created. 
 
 ### Notes:
 This device has been tested on Linux and Mac.
