@@ -4,7 +4,7 @@ Through the use of the netcat command our group was able to create a usb device 
 into another users computer which is on the same network. 
 
 ### Objective: 
-To demonstrate the risk inhereted when a person leaves a computer unlocked and unattended in a public setting and how that risk can be reduced by locking said computer when leaving it unatended. We were able to deomonstrate how to deal with this attack after it has been carried out, by monitoring a computer for suspicious bash processes and their usage of resources.
+To demonstrate the risk inhereted when a person leaves a computer unlocked and unattended in a public setting and how that risk can be reduced by locking said computer when leaving it unatended. We were able to deomonstrate how to deal with this attack after it has been carried out, by monitoring a computer for suspicious bash processes and their usage of system resources.
 
 ### Hardware: 
 Adafruit Feather 32u4 Bluefruit LE
